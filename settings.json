@@ -1,0 +1,201 @@
+{
+  "terminal.integrated.fontSize": 13,
+  "window.zoomLevel": 1,
+  "editor.suggestSelection": "first",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.jediEnabled": false,
+  "editor.lineNumbers": "on",
+  "sync.credentials": "itsecnew@gmail.com",
+  "editor.minimap.enabled": false,
+  "dayNightThemeSwitcher.nightTheme": "Default Dark+",
+  "dayNightThemeSwitcher.dayTheme": "Default Light+",
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace,\"Hack Nerd Font\"",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.cursorBlinking": "phase",
+  "terminal.external.linuxExec": "iterm",
+  "path-intellisense.absolutePathToWorkspace": false,
+
+  "editor.wordBasedSuggestions": true,
+  "editor.parameterHints": true,
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.makeRoom",
+      "sequence": [
+        "workbench.action.toggleSidebarVisibility",
+        "workbench.action.toggleActivityBarVisibility"
+      ]
+    }
+  ],
+  "zenMode.centerLayout": false,
+  "workbench.activityBar.visible": true,
+
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.excludeLanguages": [],
+  "emmet.includeLanguages": {
+    "markdown": "html",
+    "razor": "html",
+
+    "javascript": "javascriptreact"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorTheme": "Sublime Material Theme - Dark",
+  "color-highlight.markerType": "dot-before",
+  "auto-rename-tag.activationOnLanguage": ["*"],
+  "color-manager.styles": {},
+  "calva.statusColor": {},
+
+  "editor.formatOnSave": true,
+
+  "go.addTags": {},
+  "diffEditor.ignoreTrimWhitespace": false,
+  "calva.prettyPrintingOptions": {
+    "enabled": false,
+    "printEngine": "pprint",
+    "width": 120
+  },
+  "go.inferGopath": false,
+  "go.buildOnSave": "workspace",
+  "go.lintOnSave": "package",
+  "go.vetOnSave": "package",
+  "go.buildTags": "",
+  "go.buildFlags": [],
+  "go.lintFlags": [],
+  "go.vetFlags": [],
+  "go.coverOnSave": false,
+  "go.autocompleteUnimportedPackages": false,
+  "go.useCodeSnippetsOnFunctionSuggest": true,
+  "go.formatTool": "goimports",
+  "go.gocodeAutoBuild": false,
+  "go.useLanguageServer": true,
+
+  "go.alternateTools": {
+    "go-langserver": "gopls"
+  },
+
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+    //"editor.snippetSuggestions": "none"
+  },
+
+  "editor.columnSelection": false,
+  "sync.gist": "23d4613e61f2c581ede461311ce2faf0",
+  "zenMode.fullScreen": false,
+  "zenMode.hideLineNumbers": false,
+  "vs-kubernetes": {
+    "vs-kubernetes.minikube-path.linux": "/home/ahoehne/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vs-kubernetes.helm-path.linux": "/home/ahoehne/.vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vs-kubernetes.draft-path.linux": "/home/ahoehne/.vs-kubernetes/tools/draft/linux-amd64/draft"
+  },
+  "html-css-class-completion.includeGlobPattern": "**/*.{css,html,js}",
+  "material-icon-theme.folders.color": "#ffffff",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true
+  },
+  "explorer.compactFolders": false,
+  "omnisharp.path": "latest",
+  "omnisharp.useGlobalMono": "never",
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "csharpextensions.privateMemberPrefix": "_",
+  "indentRainbow.ignoreErrorLanguages": ["markdown", "json"],
+  "indentRainbow.includedLanguages": [],
+  "indentRainbow.excludedLanguages": ["plaintext", "json"],
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "prettier.proseWrap": "never",
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust"
+  },
+
+  "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.vim",
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+
+  "tabnine.experimentalAutoImports": true,
+  "files.autoSave": "afterDelay",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.quickSuggestionsDelay": 10,
+  "vscode-neovim.useCtrlKeysForInsertMode": false,
+  "vscode-neovim.useCtrlKeysForNormalMode": false,
+  "vim.enableNeovim": true,
+  "vim.highlightedyank.enable": true,
+  "vim.leader": ",",
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.visual": "#8611cf",
+  "vim.statusBarColors.visualblock": "#a02236",
+  "vim.statusBarColors.visualline": "#9C195B",
+  "vim.substituteGlobalFlag": true,
+  "vim.statusBarColors.replace": "#6f1f45",
+  "vim.statusBarColors.insert": "#cf1124",
+  "vim.statusBarColors.normal": "#4a424f",
+  "vim.vimrc.enable": true,
+  "vim.vimrc.path": "~/.vscode_vimrc",
+
+  "vim.startInInsertMode": true,
+  "vim.useSystemClipboard": true,
+  "vim.visualModeKeyBindings": [],
+
+  //If this is activated snippet autocomplete works but indexes etc.  are also autocompleted
+  //"editor.suggest.snippetsPreventQuickSuggestions": false
+
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [":"],
+      "commands": ["workbench.action.showCommands"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["p"],
+      "after": ["p", "g", "v", "y"]
+    }
+  ],
+
+  "vim.statusBarColors.commandlineinprogress": "#007ACC",
+  "vim.statusBarColors.searchinprogressmode": "#007ACC",
+  "vim.statusBarColors.easymotionmode": "#007ACC",
+  "vim.statusBarColors.easymotioninputmode": "#007ACC",
+  "vim.statusBarColors.surroundinputmode": "#007ACC",
+  "[proto3]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  }
+}
